@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> The Fitness Club</title>
+    <style>
+        body {
+font-family: Arial, sans-serif;
+            background-color:   #ffffff;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .otp-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 450px;
+        }
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+   }
+        input[type="text"], input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 35px;
+        }
+        input[type="submit"] {
+            background-color: #008000;
+            color: black;
+            border: none;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0000FF;
+        }
+        .error-message {
+            color: red;
+            text-align: center;
+            display: none; /* Hidden by default */
+        }
+  
+    </style>
+</head>
+<body>
+
+ <div class="container">
+        <div class="card">
+            <div class="header">
+                <h1 style="color:green">
+                    <p align="left"></p><img src="c:\Users\hi\Pictures\Camera Roll\images.jpg" "TFC logo" class="auto-style1" height="150" width="160" /> 
+              <p align="center">The Fitness Club
+                </h1>
+<div class="otp-container" id="otpContainer">
+    <h2>Forgot Password</h2>
+
+    <form id="otpForm" onsubmit="return sendOtp(event)">
+        <label for="phone">Phone Number:</label>
+<br>
+ <input type="text" id="phone" name="phone" required pattern="d{10}" placeholder="Enter your phone number">
+
+
+  <input type="submit" value="Send OTP">
+    </form>
+</div>
