@@ -1,6 +1,9 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="desktop_css.css" media="(min-width: 1200px)">
+    <link rel="stylesheet" type="text/css" href="phone_css.css" media="(max-width: 1200px)">
+</head>
  <meta charset="utf-8">
  <title>The Fitness Club</title>
  <meta content="width=device-width, initial-scale=1.0" name="viewport">
@@ -45,6 +48,7 @@
  color: rgb(255, 255, 255)
  }
  .social-icons a {
+  color: #fffdfd;
  margin-right: 10px;
  }
  .footer p {
@@ -91,18 +95,13 @@
  <!-- Navigation Links -->
 <span class="navbar-toggler-icon"></span>
  </button>
- <div class="collapse navbar-collapse" id="navbarNav" style="margin-right:30px; font-size:20px;">
+ <div class="collapse navbar-collapse" id="navbarNav" style="margin: right 25px; font: size 15px;">
  <ul class="navbar-nav ml-auto">
  <li class="nav-item">
  <a class="nav-link" href="index.html" style="color:black;">Home</a>
  </li>
  <li class="nav-item">
  <a class="nav-link" href="About us.html" style="color:black;">About Us</a>
- </li>
- <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color:black;">
-    Registration
-  </div>
  </li>
  <div class="collapse navbar-collapse" id="navbarNav" style="margin-right:30px; font-size:20px;">
  <li class="nav-item">
@@ -146,9 +145,10 @@
     <div class="container">
     <header class="section-header wow fadeInUp">
     <h3  style="color:black;">Services</h3>
-    <h5><p  style="color:black;">This Website Will Provide You a lot of services. Those are bellow.</p></h5>
+    <h5><p  style="color:black;">This Website Will Provide You a lot of services.</p></h5>
+    <h5><p style="color: black;">Those are bellow.</p></h5>
     <table align="center">
-    <tr>
+  <tr>
     <h6><p align="left" style="color: black;"> 1. How To Gain Weight. </p></h6>
     </tr>
     <h6>
@@ -216,25 +216,27 @@
     $('#exampleModal4').modal('show');
     }
     </script>
-    <footer class="footer">
-    <div class="container">
+
+<footer class="footer">
+  <div class="container">
     <div class="row">
-    <div class="col-md-3 mt-5">
-    <h5>SOCIAL MEDIA</h5>
-    <div class="social-icons mt-3">
-    <a href=""><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-facebook-f"></i></a>
-    <a href="#"><i class="fab fa-whatsapp"></i></a>
-    <a href="#"><i class="fab fa-youtube"></i></a>
+      <div class="col-md-3 mt-5">
+        <h5>SOCIAL MEDIA</h5>
+        <div class="social-icons mt-3">
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-whatsapp"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
         </div>
-    </div>
+      </div>
+
     <div class="col-md-3 mt-5">
     <h5>The Fitness Club</h5>
     <ul class="list-unstyled mb-4">
     <li><a href="About us.html">About Us</a></li>
     <li><a href="service.html">Servies</a></li>
     <li><a href="#">Contact us</a></li>
-    <li><a href="reg.html">Registration</a></li>
     </ul>
     </ul>
     </div>
